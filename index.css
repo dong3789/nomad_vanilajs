@@ -1,0 +1,61 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  color: rgb(36, 79, 221);
+}
+
+body > img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.8;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+
+#login-form {
+  font-size: var(--font-size-smd);
+  font-weight: 300;
+}
+
+
+#todo-list li {
+  padding: 5px 0 5px 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+#todo-list span {
+  font-size: var(--font-size-sm);
+  margin-right: 10px;
+}
+#todo-list button {
+  border-style: none;
+  background: transparent;
+  font-size: var(--font-size-sm);
+  margin-right: 10px;
+}
+
+#js-clock {
+  display: flex;
+  justify-content: center;
+  opacity: 1;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  letter-spacing: -5px; 
+}
+
+
+#weather img {
+  width: 50px;
+}
